@@ -1,0 +1,50 @@
+{
+    "name": "riode-vue",
+    "version": "1.3.0",
+    "description": "riode - Ultimate eCommerce Template",
+    "author": "d-themes",
+    "private": true,
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate"
+    },
+    "dependencies": {
+        "@nuxtjs/axios": "^5.3.6",
+        "@nuxtjs/vuetify": "^1.11.2",
+        "babel-eslint": "^10.0.3",
+        "cookie-universal-nuxt": "^2.1.3",
+        "cookieparser": "^0.1.0",
+        "imagesloaded": "^4.1.4",
+        "js-cookie": "^2.2.1",
+        "moment": "^2.26.0",
+        "nuxt": "^2.14.7",
+        "nuxt-i18n": "^6.3.0",
+        "prettier": "^1.9.2",
+        "sass": "^1.32.8",
+        "sass-loader": "10.1.1",
+        "save-dev": "^0.0.1-security",
+        "vue-awesome-swiper": "^3.1.3",
+        "vue-image-lightbox": "^7.1.3",
+        "vue-image-zoom": "^1.0.6",
+        "vue-images-loaded": "^1.1.2",
+        "vue-infinite-scroll": "^2.0.2",
+        "vue-js-modal": "^2.0.0-rc.6",
+        "vue-lazyload": "^1.3.3",
+        "vue-notification": "^1.3.20",
+        "vue-nouislider": "^1.0.1",
+        "vue-range-slider": "^0.6.0",
+        "vue-slide-toggle": "^1.1.1",
+        "vue-sticky-directive": "0.0.10",
+        "vue-tree-list": "^1.5.0",
+        "vue2-google-maps": "^0.10.7",
+        "vueisotope": "^3.1.2",
+        "vuelidate": "^0.7.4",
+        "vuex-persistedstate": "^2.5.4"
+    },
+    "devDependencies": {
+        "@nuxt/types": "~0.7.0",
+        "@nuxtjs/style-resources": "^1.0.0"
+    }
+}

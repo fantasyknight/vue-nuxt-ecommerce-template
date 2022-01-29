@@ -1,0 +1,43 @@
+.vue-lb-thumbnail {
+    padding: 0;
+
+    .vue-lb-modal-thumbnail-active {
+        box-shadow: inset 0 0 0 2px $primary-color;
+    }
+} 
+
+.vue-lb-header, .vue-lb-footer {
+    display: none;
+}
+
+.vue-lb-arrow {
+    top: 47%;
+}
+
+.vue-lb-open {
+    overflow: visible !important;
+}
+
+.vue-lb-thumbnail-left {
+    left: -30px;
+}
+
+.vue-lb-thumbnail-right {
+    right: -30px;
+}
+
+@include mq('500px') {
+    .vue-lb-thumbnail-left {
+        left: -40px;
+    }
+
+    .vue-lb-thumbnail-right {
+        right: -40px;
+    }
+}
+
+@include mq('425px', max) {
+    .vue-lb-thumbnail {
+        padding: 0;
+    }
+}

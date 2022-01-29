@@ -1,0 +1,49 @@
+/* -------------------------------------------
+    No UiSlider
+---------------------------------------------- */
+
+.filter-actions.price-range-slider {
+    margin-top: 3rem;
+}
+.filter-price-slider {
+    margin: 0 2.2rem 0 2px;
+    .noUi-handle {
+        box-shadow: none;
+        cursor: pointer;
+        
+        &::before, &::after {
+            content: none;
+        }
+    }
+    .noUi-target {
+        background: #eee;
+        height: 3px;
+        // margin: 4px 16px 3rem 9px;
+        border: none;
+        box-shadow: none;
+    }
+    .noUi-connects {
+        padding: 11.5px 0;
+        top: -10px;
+    }
+    .noUi-connect {
+        background: #999;
+        margin-top: 1px;
+        height: 3px;
+        cursor: pointer;
+    }
+    .noUi-base {
+        cursor: pointer;
+    }
+    .noUi-horizontal .noUi-handle {
+        top: -0.6rem;
+        width: 1.2rem;
+        height: 1.7rem;
+        background: #444;
+        border-radius: 3px;
+    }
+    .noUi-horizontal .noUi-handle {
+        left: 0;
+        border: none;
+    }
+}
