@@ -26,6 +26,7 @@
         "sass": "^1.32.8",
         "sass-loader": "10.1.1",
         "save-dev": "^0.0.1-security",
+        "vercel-builder": "0.0.2",
         "vue-awesome-swiper": "^3.1.3",
         "vue-image-lightbox": "^7.1.3",
         "vue-image-zoom": "^1.0.6",
