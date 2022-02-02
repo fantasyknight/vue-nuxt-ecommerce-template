@@ -431,7 +431,7 @@ import SwiperCarousel from '~/components/elements/SwiperCarousel';
 import BlogSidebar from '~/components/partials/blog/BlogSidebar';
 import RelatedPosts from '~/components/partials/blog/RelatedPosts';
 
-import Api, { baseUrl, currentDemo } from '~/api';
+import Api, { baseUrl, currentDemo } from '~/repository';
 import { baseSlider11 } from '~/utils/data/carousel';
 import { scrollHandler, playVideo } from '~/utils';
 

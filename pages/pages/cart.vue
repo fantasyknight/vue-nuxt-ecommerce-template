@@ -274,7 +274,7 @@ import Sticky from 'vue-sticky-directive';
 
 import InputQuantity from '~/components/elements/InputQuantity';
 
-import { baseUrl } from '~/api';
+import { baseUrl } from '~/repository';
 
 export default {
 	components: {

@@ -50,7 +50,7 @@
 <script>
 import { setCookie } from '~/utils/index';
 
-import { currentDemo } from '~/api';
+import { currentDemo } from '~/repository';
 
 export default {
 	data: function () {

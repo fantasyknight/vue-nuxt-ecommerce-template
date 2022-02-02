@@ -198,7 +198,7 @@ import { VueSlideToggle } from 'vue-slide-toggle';
 
 import PostSix from '~/components/elements/post/PostSix';
 
-import Api, { baseUrl, currentDemo } from '~/api';
+import Api, { baseUrl, currentDemo } from '~/repository';
 
 export default {
 	components: {

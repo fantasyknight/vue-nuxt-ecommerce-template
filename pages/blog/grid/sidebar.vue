@@ -69,7 +69,7 @@ import PostEight from '~/components/elements/post/PostEight';
 import Pagination from '~/components/elements/Pagination';
 import BlogSidebar from '~/components/partials/blog/BlogSidebar';
 
-import Api, { baseUrl, currentDemo } from '~/api';
+import Api, { baseUrl, currentDemo } from '~/repository';
 import { scrollHandler } from '~/utils';
 import { filterList } from '~/utils/data/menu';
 

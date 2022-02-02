@@ -64,7 +64,7 @@ import ProductTwo from '~/components/elements/product/ProductTwo';
 import ProductEight from '~/components/elements/product/ProductEight';
 import ToolboxOne from '~/components/partials/shop/toolbox/ToolboxOne';
 
-import Api, { baseUrl, currentDemo } from '~/api';
+import Api, { baseUrl, currentDemo } from '~/repository';
 
 export default {
 	components: {

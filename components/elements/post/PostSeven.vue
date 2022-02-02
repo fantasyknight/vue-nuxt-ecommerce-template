@@ -71,7 +71,7 @@
 <script>
 import SwiperCarousel from '~/components/elements/SwiperCarousel';
 
-import { baseUrl } from '~/api';
+import { baseUrl } from '~/repository';
 import { playVideo } from '~/utils';
 import { baseSlider11 } from '~/utils/data/carousel';
 

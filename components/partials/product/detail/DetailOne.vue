@@ -352,7 +352,7 @@ import ProductNav from '~/components/partials/product/ProductNav';
 import CountDown from '~/components/elements/CountDown';
 import StickyWrapper from '~/components/elements/StickyWrapper';
 
-import { baseUrl } from '~/api';
+import { baseUrl } from '~/repository';
 
 export default {
 	components: {

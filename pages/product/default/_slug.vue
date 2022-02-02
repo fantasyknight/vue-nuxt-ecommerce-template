@@ -74,7 +74,7 @@ import DescOne from '~/components/partials/product/desc/DescOne';
 import RelatedProducts from '~/components/partials/product/RelatedProducts';
 import SwiperCarousel from '~/components/elements/SwiperCarousel';
 
-import Api, { baseUrl, currentDemo } from '~/api';
+import Api, { baseUrl, currentDemo } from '~/repository';
 import { baseSlider17 } from '~/utils/data/carousel';
 
 export default {

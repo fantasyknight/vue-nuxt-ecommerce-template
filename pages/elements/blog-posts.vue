@@ -159,7 +159,7 @@ import PostThree from '~/components/elements/post/PostThree';
 import PostFour from '~/components/elements/post/PostFour';
 import ElementList from '~/components/partials/elements/ElementList';
 
-import Api, { baseUrl, currentDemo } from '~/api';
+import Api, { baseUrl, currentDemo } from '~/repository';
 import { baseSlider9, baseSlider10, baseSlider12 } from '~/utils/data/carousel';
 
 export default {

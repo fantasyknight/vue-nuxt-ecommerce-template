@@ -97,7 +97,7 @@ import isotope from 'vueisotope';
 import PostFour from '~/components/elements/post/PostFour';
 import Pagination from '~/components/elements/Pagination';
 
-import Api, { baseUrl, currentDemo } from '~/api';
+import Api, { baseUrl, currentDemo } from '~/repository';
 import { filterList } from '~/utils/data/menu';
 
 export default {

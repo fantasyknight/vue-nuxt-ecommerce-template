@@ -142,7 +142,7 @@
 <script>
 import SwiperCarousel from '~/components/elements/SwiperCarousel';
 
-import { baseUrl } from '~/api';
+import { baseUrl } from '~/repository';
 import { introSlider } from '~/utils/data/carousel';
 
 export default {

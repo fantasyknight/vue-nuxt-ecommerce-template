@@ -41,7 +41,7 @@
 </template>
 
 <script>
-import { baseUrl } from '~/api/index';
+import { baseUrl } from '~/repository/index';
 
 export default {
 	name: 'Notify',

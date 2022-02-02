@@ -69,7 +69,7 @@ import LightBox from 'vue-image-lightbox';
 
 import SwiperCarousel from '~/components/elements/SwiperCarousel';
 
-import { baseUrl } from '~/api';
+import { baseUrl } from '~/repository';
 import { baseSlider8 } from '~/utils/data/carousel';
 
 export default {

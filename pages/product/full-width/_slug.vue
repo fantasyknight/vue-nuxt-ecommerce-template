@@ -113,7 +113,7 @@ import SwiperCarousel from '~/components/elements/SwiperCarousel';
 import ProductNav from '~/components/partials/product/ProductNav';
 import ProductSidebar from '~/components/partials/product/ProductSidebar';
 
-import Api, { baseUrl, currentDemo } from '~/api';
+import Api, { baseUrl, currentDemo } from '~/repository';
 import { baseSlider17 } from '~/utils/data/carousel';
 
 export default {

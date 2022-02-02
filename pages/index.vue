@@ -43,7 +43,7 @@ import BlogSection from '~/components/partials/home/BlogSection';
 import BrandSection from '~/components/partials/home/BrandSection';
 import SmallCollection from '~/components/partials/home/SmallCollection';
 
-import Api, { baseUrl, currentDemo } from '~/api';
+import Api, { baseUrl, currentDemo } from '~/repository';
 import { getCookie } from '~/utils';
 
 export default {

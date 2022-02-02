@@ -132,7 +132,7 @@
 
 <script>
 import { mapGetters, mapActions } from 'vuex';
-import { baseUrl } from '~/api';
+import { baseUrl } from '~/repository';
 
 export default {
 	props: {

@@ -351,7 +351,7 @@
 import SwiperCarousel from '~/components/elements/SwiperCarousel';
 import CountUp from '~/components/elements/CountUp';
 
-import { baseUrl } from '~/api';
+import { baseUrl } from '~/repository';
 import { baseSlider16 } from '~/utils/data/carousel';
 
 export default {

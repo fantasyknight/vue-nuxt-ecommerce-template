@@ -130,7 +130,7 @@
 <script>
 import InputQuantity from '~/components/elements/InputQuantity';
 import { mapGetters, mapActions } from 'vuex';
-import { baseUrl } from '~/api';
+import { baseUrl } from '~/repository';
 
 export default {
 	components: {

@@ -73,7 +73,7 @@
 <script>
 import LightBox from 'vue-image-lightbox';
 
-import { baseUrl } from '~/api';
+import { baseUrl } from '~/repository';
 
 export default {
 	components: {

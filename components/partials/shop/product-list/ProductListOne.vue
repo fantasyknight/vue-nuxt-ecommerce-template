@@ -70,7 +70,7 @@ import ToolboxOne from '~/components/partials/shop/toolbox/ToolboxOne';
 import ToolboxTwo from '~/components/partials/shop/toolbox/ToolboxTwo';
 import ToolboxThree from '~/components/partials/shop/toolbox/ToolboxThree';
 
-import Api, { baseUrl, currentDemo } from '~/api';
+import Api, { baseUrl, currentDemo } from '~/repository';
 import { scrollHandler } from '~/utils';
 
 export default {

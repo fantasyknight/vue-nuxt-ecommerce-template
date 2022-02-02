@@ -388,7 +388,7 @@ import ProductEight from '~/components/elements/product/ProductEight';
 import ProductSmall from '~/components/elements/product/ProductSmall';
 import ElementList from '~/components/partials/elements/ElementList';
 
-import Api, { baseUrl, currentDemo } from '~/api';
+import Api, { baseUrl, currentDemo } from '~/repository';
 import { baseSlider4, baseSlider14, baseSlider15 } from '~/utils/data/carousel';
 
 export default {

@@ -82,7 +82,7 @@
 import SwiperCarousel from '~/components/elements/SwiperCarousel';
 import DetailOne from '~/components/partials/product/detail/DetailOne';
 
-import Respository, { baseUrl, currentDemo } from '~/api';
+import Respository, { baseUrl, currentDemo } from '~/repository';
 import { baseSlider4 } from '~/utils/data/carousel';
 import { isEdgeBrowser } from '~/utils';
 

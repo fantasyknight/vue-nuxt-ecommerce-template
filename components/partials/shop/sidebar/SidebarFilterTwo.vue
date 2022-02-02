@@ -182,7 +182,7 @@ import { VueTreeList, Tree } from 'vue-tree-list';
 
 import { scrollHandler } from '~/utils';
 
-import Api, { baseUrl, currentDemo } from '~/api';
+import Api, { baseUrl, currentDemo } from '~/repository';
 import { shopColors, shopSizes, shopBrands } from '~/utils/data/shop';
 
 export default {

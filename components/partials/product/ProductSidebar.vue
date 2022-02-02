@@ -134,7 +134,7 @@ import SwiperCarousel from '~/components/elements/SwiperCarousel';
 import ProductSmall from '~/components/elements/product/ProductSmall';
 import PostSix from '~/components/elements/post/PostSix';
 
-import Api, { baseUrl, currentDemo } from '~/api';
+import Api, { baseUrl, currentDemo } from '~/repository';
 import { baseSlider4 } from '~/utils/data/carousel';
 
 export default {

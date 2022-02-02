@@ -92,7 +92,7 @@
 <script>
 import { mapGetters, mapActions } from 'vuex';
 
-import { baseUrl } from '~/api/index';
+import { baseUrl } from '~/repository/index';
 
 export default {
 	data: function () {

@@ -84,7 +84,7 @@
 </template>
 
 <script>
-import Api, { baseUrl, currentDemo } from '~/api';
+import Api, { baseUrl, currentDemo } from '~/repository';
 
 export default {
 	data: function () {

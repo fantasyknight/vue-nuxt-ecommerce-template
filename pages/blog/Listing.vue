@@ -73,7 +73,7 @@ import PostSeven from '~/components/elements/post/PostSeven';
 import Pagination from '~/components/elements/Pagination';
 import BlogSidebar from '~/components/partials/blog/BlogSidebar';
 
-import Api, { baseUrl, currentDemo } from '~/api';
+import Api, { baseUrl, currentDemo } from '~/repository';
 import { scrollHandler } from '~/utils';
 
 export default {
