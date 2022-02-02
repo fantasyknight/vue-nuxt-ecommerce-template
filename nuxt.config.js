@@ -108,7 +108,7 @@ export default {
     },
 
     build: {
-        publicPath: "http://192.168.1.25/vue/riode/demo-1/",
+        publicPath: "http://d-themes.com/vue/riode/demo-1/",
         extend(config, { loaders }) {
             loaders.scss.additionalData = '@use "sass:math";';
         }
@@ -123,6 +123,8 @@ export default {
     loadingIndicator: false,
 
     pageTransition: 'page',
+
+    target: 'server',
 
     server: {
         port: 4002,

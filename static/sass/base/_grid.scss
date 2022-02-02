@@ -6,13 +6,13 @@
     flex-wrap: wrap;
     margin-left: -#{get(base, _gutter-md)};
     margin-right: -#{get(base, _gutter-md)};
-    
+
     > * {
         position: relative;
         width: 100%;
         padding-right: #{get(base, _gutter-md)};
         padding-left: #{get(base, _gutter-md)};
-    }    
+    }
 }
 .gutter-lg {
     margin-left: -#{get(base, _gutter-lg)};
@@ -48,70 +48,106 @@
 }
 
 @for $i from 1 through 8 {
-    .cols-#{$i} > * { max-width: #{ round( 100% / $i * 10000 ) / 10000 }; flex: 0 0 #{ round( 100% / $i * 10000 ) / 10000 }; }
+    .cols-#{$i} > * {
+        max-width: #{math.div(round(math.div(100%, $i) * 10000), 10000)};
+        flex: 0 0 #{math.div(round(math.div(100%, $i) * 10000), 10000)};
+    }
 }
 
 @include mq(xs) {
     @for $i from 1 through 8 {
-        .cols-xs-#{$i} > * { max-width: #{ round( 100% / $i * 10000 ) / 10000 }; flex: 0 0 #{ round( 100% / $i * 10000 ) / 10000 }; }
+        .cols-xs-#{$i} > * {
+            max-width: #{math.div(round(math.div(100%, $i) * 10000), 10000)};
+            flex: 0 0 #{math.div(round(math.div(100%, $i) * 10000), 10000)};
+        }
     }
 }
 
 @include mq(sm) {
     @for $i from 1 through 8 {
-        .cols-sm-#{$i} > * { max-width: #{ round( 100% / $i * 10000 ) / 10000 }; flex: 0 0 #{ round( 100% / $i * 10000 ) / 10000 }; }
+        .cols-sm-#{$i} > * {
+            max-width: #{math.div(round(math.div(100%, $i) * 10000), 10000)};
+            flex: 0 0 #{math.div(round(math.div(100%, $i) * 10000), 10000)};
+        }
     }
 }
 
 @include mq(md) {
     @for $i from 1 through 8 {
-        .cols-md-#{$i} > * { max-width: #{ round( 100% / $i * 10000 ) / 10000 }; flex: 0 0 #{ round( 100% / $i * 10000 ) / 10000 }; }
+        .cols-md-#{$i} > * {
+            max-width: #{math.div(round(math.div(100%, $i) * 10000), 10000)};
+            flex: 0 0 #{math.div(round(math.div(100%, $i) * 10000), 10000)};
+        }
     }
 }
 
 @include mq(lg) {
     @for $i from 1 through 8 {
-        .cols-lg-#{$i} > * { max-width: #{ round( 100% / $i * 10000 ) / 10000 }; flex: 0 0 #{ round( 100% / $i * 10000 ) / 10000 }; }
+        .cols-lg-#{$i} > * {
+            max-width: #{math.div(round(math.div(100%, $i) * 10000), 10000)};
+            flex: 0 0 #{math.div(round(math.div(100%, $i) * 10000), 10000)};
+        }
     }
 }
 
 @include mq(xl) {
     @for $i from 1 through 8 {
-        .cols-xl-#{$i} > * { max-width: #{ round( 100% / $i * 10000 ) / 10000 }; flex: 0 0 #{ round( 100% / $i * 10000 ) / 10000 }; }
+        .cols-xl-#{$i} > * {
+            max-width: #{math.div(round(math.div(100%, $i) * 10000), 10000)};
+            flex: 0 0 #{math.div(round(math.div(100%, $i) * 10000), 10000)};
+        }
     }
 }
 
 @for $i from 1 through 12 {
-    .col-#{$i} { max-width: #{ round(100% / 12 * $i * 10000) / 10000 }; flex: 0 0 #{ round(100% / 12 * $i * 10000) / 10000 }; }
+    .col-#{$i} {
+        max-width: #{math.div(round(math.div(100%, 12) * $i * 10000), 10000)};
+        flex: 0 0 #{math.div(round(math.div(100%, 12) * $i * 10000), 10000)};
+    }
 }
 
 @include mq(xs) {
     @for $i from 1 through 12 {
-        .col-xs-#{$i} { max-width: #{ round(100% / 12 * $i * 10000) / 10000 }; flex: 0 0 #{ round(100% / 12 * $i * 10000) / 10000 }; }
+        .col-xs-#{$i} {
+            max-width: #{math.div(round(math.div(100%, 12) * $i * 10000), 10000)};
+            flex: 0 0 #{math.div(round(math.div(100%, 12) * $i * 10000), 10000)};
+        }
     }
 }
 
 @include mq(sm) {
     @for $i from 1 through 12 {
-        .col-sm-#{$i} { max-width: #{ round(100% / 12 * $i * 10000) / 10000 }; flex: 0 0 #{ round(100% / 12 * $i * 10000) / 10000 }; }
+        .col-sm-#{$i} {
+            max-width: #{math.div(round(math.div(100%, 12) * $i * 10000), 10000)};
+            flex: 0 0 #{math.div(round(math.div(100%, 12) * $i * 10000), 10000)};
+        }
     }
 }
 
 @include mq(md) {
     @for $i from 1 through 12 {
-        .col-md-#{$i} { max-width: #{ round(100% / 12 * $i * 10000) / 10000 }; flex: 0 0 #{ round(100% / 12 * $i * 10000) / 10000 }; }
+        .col-md-#{$i} {
+            max-width: #{math.div(round(math.div(100%, 12) * $i * 10000), 10000)};
+            flex: 0 0 #{math.div(round(math.div(100%, 12) * $i * 10000), 10000)};
+        }
     }
 }
 
 @include mq(lg) {
     @for $i from 1 through 12 {
-        .col-lg-#{$i} { max-width: #{ round(100% / 12 * $i * 10000) / 10000 }; flex: 0 0 #{ round(100% / 12 * $i * 10000) / 10000 }; }
+        .col-lg-#{$i} {
+            max-width: #{math.div(round(math.div(100%, 12) * $i * 10000), 10000)};
+            flex: 0 0 #{math.div(round(math.div(100%, 12) * $i * 10000), 10000)};
+        }
     }
 }
 
 @include mq(xl) {
     @for $i from 1 through 12 {
-        .col-xl-#{$i} { max-width: #{ round(100% / 12 * $i * 10000) / 10000 }; flex: 0 0 #{ round(100% / 12 * $i * 10000) / 10000 }; }
+        .col-xl-#{$i} {
+            max-width: #{math.div(round(math.div(100%, 12) * $i * 10000), 10000)};
+            flex: 0 0 #{math.div(round(math.div(100%, 12) * $i * 10000), 10000)};
+        }
     }
 }
 
@@ -167,7 +203,7 @@
     }
     .order-sm-first {
         order: -1;
-    } 
+    }
     .order-sm-last {
         order: 9;
     }
@@ -186,7 +222,7 @@
 @include mq(lg) {
     .order-lg-auto {
         order: 0;
-    } 
+    }
     .order-lg-first {
         order: -1;
     }
@@ -201,20 +237,20 @@
     .category > a,
     figure,
     .banner img,
-    .category img { 
-        height: 100%; 
+    .category img {
+        height: 100%;
     }
     img {
         object-fit: cover;
     }
     .grid-item {
         padding: 1rem;
-        transform: translate3d(0,0,0);
+        transform: translate3d(0, 0, 0);
     }
     &.gutter-sm {
-        margin: -.5rem;
+        margin: -0.5rem;
         .grid-item {
-            padding: .5rem;
+            padding: 0.5rem;
         }
     }
     &.gutter-no {
@@ -236,17 +272,16 @@
     }
 }
 
-
 // Split Line
 $border-right-color: #ebebeb !default;
 $border-bottom-color: #f4f4f4 !default;
 
-.split-line> * {
+.split-line > * {
     margin-bottom: 3rem;
     padding-bottom: 3rem;
     border-bottom: 1px solid $border-right-color;
     &::after {
-        content: '';
+        content: "";
         display: block;
         width: 1px;
         height: calc(100% - 3rem);
@@ -257,54 +292,64 @@ $border-bottom-color: #f4f4f4 !default;
     }
 }
 #{split-line-nthclasses()} {
-    &::after { content: none; }
+    &::after {
+        content: none;
+    }
 }
-@include mq('sm') {
+@include mq("sm") {
     #{split-line-classes( 'sm-' )} {
         &::after {
-            content: ''
+            content: "";
         }
     }
     #{split-line-nthclasses( 'sm-' )} {
-        &::after { content: none; }
+        &::after {
+            content: none;
+        }
     }
 }
-    
-@include mq('md') {
+
+@include mq("md") {
     #{split-line-classes( 'md-' )} {
         &::after {
-            content: '';
+            content: "";
         }
     }
     #{split-line-nthclasses( 'md-' )} {
-        &::after { content: none; }
+        &::after {
+            content: none;
+        }
     }
 }
 
-@include mq('lg') {
+@include mq("lg") {
     #{split-line-classes( 'lg-' )} {
         &::after {
-            content: '';
+            content: "";
         }
     }
     #{split-line-nthclasses( 'lg-' )} {
-        &::after { content: none; }
+        &::after {
+            content: none;
+        }
     }
 }
 
-@include mq('xl') {
+@include mq("xl") {
     #{split-line-classes( 'xl-' )},
-    .split-line>.col-xl-5col:nth-child(n),
-    .split-line>.col-xl-7col:nth-child(n),
-    .split-line>.col-xl-8col:nth-child(n) {
+    .split-line > .col-xl-5col:nth-child(n),
+    .split-line > .col-xl-7col:nth-child(n),
+    .split-line > .col-xl-8col:nth-child(n) {
         &::after {
-            content: '';
+            content: "";
         }
     }
     #{split-line-nthclasses( 'xl-' )},
-    .split-line>.col-xl-5col:nth-child(5n),
-    .split-line>.col-xl-7col:nth-child(7n),
-    .split-line>.col-xl-8col:nth-child(8n) {
-        &::after { content: none; }
+    .split-line > .col-xl-5col:nth-child(5n),
+    .split-line > .col-xl-7col:nth-child(7n),
+    .split-line > .col-xl-8col:nth-child(8n) {
+        &::after {
+            content: none;
+        }
     }
 }
