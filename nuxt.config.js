@@ -77,6 +77,10 @@ export default {
         ]
     },
 
+    serverMiddleware: [
+        '~/server-middleware/log.js'
+    ],
+
     css: [
         'swiper/dist/css/swiper.css',
         'vue-image-lightbox/dist/vue-image-lightbox.min.css',
