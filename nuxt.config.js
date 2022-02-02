@@ -108,7 +108,7 @@ export default {
     },
 
     build: {
-        publicPath: "http://d-themes.com/vue/riode/demo-1/",
+        publicPath: "https://vue-nuxt-ecommerce-template-pa57aptl4-nicedev0908.vercel.app/vue/riode/demo-1",
         extend(config, { loaders }) {
             loaders.scss.additionalData = '@use "sass:math";';
         }
