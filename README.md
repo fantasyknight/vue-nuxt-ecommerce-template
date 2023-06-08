@@ -1,2 +1,4 @@
-# vue-nuxt-ecommerce-template
+# vue-nuxt-ecommerce-platform
  
+ 
+![Uploading image.png…]()
